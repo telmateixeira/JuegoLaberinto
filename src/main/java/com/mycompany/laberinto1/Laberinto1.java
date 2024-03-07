@@ -4,6 +4,9 @@
 
 package com.mycompany.laberinto1;
 
+import constructores.Comandos;
+import constructores.PalabrasComandos;
+
 /**
  *
  * @author Diurno
@@ -11,6 +14,7 @@ package com.mycompany.laberinto1;
 public class Laberinto1 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        PalabrasComandos p = new PalabrasComandos(Comandos.fin);
+        System.out.println(p.esComando("ayuda"));
     }
 }

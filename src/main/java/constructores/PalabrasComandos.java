@@ -15,5 +15,19 @@ public class PalabrasComandos {
         this.comando = comando;
     }
     
+    public boolean esComando(String com){
+        if (com.equalsIgnoreCase(Comandos.ayuda.toString()) || com.equalsIgnoreCase(Comandos.fin.toString())
+               || com.equalsIgnoreCase(Comandos.ir.toString()) || com.equalsIgnoreCase(Comandos.luz.toString())) {
+            return true;
+        }
+        return false;
+    }
+
+    public String mostrarTodos(){
+    
+        return null;
+    
+    }
+    
     
 }
