@@ -8,12 +8,6 @@ package constructores;
  *
  * @author Diurno
  */
-public class PalabrasComandos {
-    private Comandos comando;
-
-    public PalabrasComandos(Comandos comando) {
-        this.comando = comando;
-    }
-    
-    
+public enum Comandos {
+    ir, fin, ayuda, luz
 }
